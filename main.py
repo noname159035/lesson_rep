@@ -10,7 +10,9 @@ window.resizable(False, False)
 
 a = 0
 while (a < 10):
-    pass
+    print(a)
+    a += 1
+    a += 2
 
 lable_text_top = tkinter.Label(width=40, text="Предыдущие версии можно полчуить из истории")
 lable_text_top.place(relx=0.15, rely=0.05)
